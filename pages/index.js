@@ -6,7 +6,7 @@ export default function Home() {
     <div className={styles.container}>
       <Head>
         <title>Create Next App</title>
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="/favicon.png" />
       </Head>
 
       <main className={styles.main}>
@@ -15,23 +15,23 @@ export default function Home() {
         </h1>
 
         <p className={styles.description}>
-          Get started by editing{' '}
+          Welcome.
           <code className={styles.code}>pages/index.js</code>
         </p>
 
         <div className={styles.grid}>
-          <a href="https://nextjs.org/docs" className={styles.card}>
-            <h3>Documentation &rarr;</h3>
-            <p>Find in-depth information about Next.js features and API.</p>
+          <a href="https://replit.com/team/BONZOSCS112" className={styles.card}>
+            <h3>BonzosCS112 Replit</h3>
+            <p>Our replit team.</p>
           </a>
 
-          <a href="https://nextjs.org/learn" className={styles.card}>
-            <h3>Learn &rarr;</h3>
-            <p>Learn about Next.js in an interactive course with quizzes!</p>
+          <a href="https://docs.python.org/3/index.html" className={styles.card}>
+            <h3>python3 Documentation and Reference</h3>
+            <p>Official latest python documentation. Great for reference.</p>
           </a>
 
           <a
-            href="https://github.com/vercel/next.js/tree/master/examples"
+            href="#"
             className={styles.card}
           >
             <h3>Examples &rarr;</h3>
@@ -43,9 +43,6 @@ export default function Home() {
             className={styles.card}
           >
             <h3>Deploy &rarr;</h3>
-            <p>
-              Instantly deploy your Next.js site to a public URL with Vercel.
-            </p>
           </a>
         </div>
       </main>
